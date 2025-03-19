@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 8px;
+    
+}
+
+.content .small-square {
+    margin-left: 10px;
+    background-color: #FFD600;
+    height: 6px;
+    width: 6px;
+    min-height: 6px; 
+    min-width: 6px; 
+    flex-shrink: 0; 
+  }

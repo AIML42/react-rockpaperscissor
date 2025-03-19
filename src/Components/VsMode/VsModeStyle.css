@@ -1,0 +1,106 @@
+.vs-mode{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 70vw;
+}
+
+.user-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.user-circle {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 10px solid #0074B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.computer-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.computer-circle {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 10px solid #0074B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock-custom-circle{
+    border: 10px solid #0074B6;
+}
+
+.paper-custom-circle{
+    border: 10px solid #FFA943;
+}
+
+.scissor-custom-circle{
+    border: 10px solid #BD00FF;
+}
+
+.vs-mode .result{
+    text-align: center;
+}
+
+.vs-mode .result button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.vs-mode .result button h5 {
+    color: #6B6B6B;
+}
+
+.vs-mode .result button:hover {
+    cursor: pointer;
+    /* width: 120%; */
+    /* background-color: #F96167; */
+    border: 3px solid #FFFFFF;
+    transition: 0.1s ease;
+}
+
+.winning-circle{
+    box-shadow:
+        0 0 0 10px rgba(46, 154, 37, 0.8),
+        0 0 0 20px rgba(46, 154, 37, 0.6), 
+        0 0 0 30px rgba(46, 154, 37, 0.4), 
+        0 0 0 40px rgba(46, 154, 37, 0.2);
+}
+
+
+@media (max-width : 600px) {
+    .user-circle{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .computer-circle{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    
+
+}

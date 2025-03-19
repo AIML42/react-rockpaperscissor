@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+@media (max-width : 600px) {
+    h1{
+        font-size:medium;
+    }
+    h4{
+        font-size: xx-small;
+    }
+    h3{
+        font-size: x-small;
+    }
+}
