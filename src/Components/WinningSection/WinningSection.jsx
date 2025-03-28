@@ -3,6 +3,7 @@ import './WinningSectionStyle.css'
 import { useState, useContext } from 'react'
 import winningScene from "../../assets/scenes/winning_scene.jpg"
 import { Data } from '../../Context/ScoreContext'
+import starsAndTrophy from "../../assets/scenes/stars_and_thropy.png"
 
 const WinningSection = () => {
 
@@ -22,7 +23,8 @@ const WinningSection = () => {
             </button>
 
             {winningPage && <div className='main-winning-section'>
-                <img src={winningScene} alt="" />
+                {/* <img src={winningScene} alt="" /> */}
+                <img src={starsAndTrophy} alt="" />
                 <h1>HURRAY!!</h1>
                 <h2>YOU WON THE GAME</h2>
                 <button onClick={handlePlayAgain}><h5>PLAY AGAIN</h5></button>

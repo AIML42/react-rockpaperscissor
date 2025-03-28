@@ -29,11 +29,12 @@
     background-color: #FFFFFF;
     border: 10px solid #0074B6;
     position: absolute;
-    top: -6vh;
-    left: -5vh;
+    top: 0%;
+    left: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-50%, -50%);
 }
 
 .paper-circle {
@@ -43,11 +44,12 @@
     background-color: #FFFFFF;
     border: 10px solid #FFA943;
     position: absolute;
-    bottom: 10vh;
-    left: 12vh;
+    bottom: 0%;
+    left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-50%, -50%);
 }
 
 .scissor-circle {
@@ -57,17 +59,18 @@
     background-color: #FFFFFF;
     border: 10px solid #BD00FF;
     position: absolute;
-    top: -6vh;
-    left: 30vh;
+    top: 0%;
+    left: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-50%, -50%);
     
 }
 
 #circle:hover{
-    border: 12px solid #F96167;
-    transition: 0.1s ease;
+    /* border: 12px solid #F96167;
+    transition: 0.1s ease; */
     cursor: pointer;
 }
 
